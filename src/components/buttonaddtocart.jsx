@@ -1,5 +1,5 @@
 //Estado de componentes
-
+import "./buttonAddtoCart.css";
 import { useState } from "react";
 
 function ButtonAddToCart() {
@@ -15,7 +15,9 @@ function ButtonAddToCart() {
   }
   return (
     <div>
-      <button onClick={clickUser}>Agregar al carrito</button>
+      <button className="buttonAdd" onClick={clickUser}>
+        Agregar al carrito
+      </button>
       <br></br>
       <small>{statusInCart}</small>
     </div>

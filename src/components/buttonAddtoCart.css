@@ -1,0 +1,11 @@
+.buttonAdd {
+  background-color: #45484b;
+}
+.buttonAdd {
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.buttonAdd:hover {
+  border-color: #eee6ab;
+}
